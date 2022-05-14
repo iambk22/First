@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2993300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User Launch facebook web application",
+            "match": {
+              "location": "ExecutionClass.user_Launch_facebook_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1981101,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User verify facebook login page is displayed",
+            "match": {
+              "location": "ExecutionClass.user_verify_facebook_login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-06T13:47:43.045Z",
+        "line": 14,
+        "name": "TC01_Validation of Login Page with valid username and valid password",
+        "description": "",
+        "id": "validation-of-facebook-login-page;tc01-validation-of-login-page-with-valid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2820800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters invalid \"invaln\" and valid \"valp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invaln\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"valp\"",
+                  "offset": 39
+                }
+              ],
+              "location": "ExecutionClass.user_enters_invalid_and_valid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 808300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User Click Login Button",
+            "match": {
+              "location": "ExecutionClass.user_Click_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 769601,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User verify Error Message is Displayed",
+            "match": {
+              "location": "ExecutionClass.user_verify_Error_Message_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 808401,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User Launch facebook web application",
+            "match": {
+              "location": "ExecutionClass.user_Launch_facebook_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 765300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User verify facebook login page is displayed",
+            "match": {
+              "location": "ExecutionClass.user_verify_facebook_login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-06T13:47:43.131Z",
+        "line": 32,
+        "name": "TC03_Validation of Login Page with valid usename and invalid password",
+        "description": "",
+        "id": "validation-of-facebook-login-page;tc03-validation-of-login-page-with-valid-usename-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2280100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters valid \"valn\" and invalid \"invalp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valn\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"invalp\"",
+                  "offset": 37
+                }
+              ],
+              "location": "ExecutionClass.user_enters_valid_and_invalid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971099,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User Click Login Button",
+            "match": {
+              "location": "ExecutionClass.user_Click_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695599,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User verify Error Message is Displayed",
+            "match": {
+              "location": "ExecutionClass.user_verify_Error_Message_is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Facebook Login Page",
+    "description": "",
+    "id": "validation-of-facebook-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Sample.feature",
+    "tags": []
+  }
+]

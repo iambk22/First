@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.086943">
+<testcase classname="Validation of Facebook Login Page" name="TC01_Validation of Login Page with valid username and valid password" time="0.072481">
+<system-out><![CDATA[Given User Launch facebook web application..................................skipped
+Then User verify facebook login page is displayed...........................skipped
+When User enters invalid "invaln" and valid "valp"..........................skipped
+And User Click Login Button.................................................skipped
+Then User verify Error Message is Displayed.................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Facebook Login Page" name="TC03_Validation of Login Page with valid usename and invalid password" time="0.014462">
+<system-out><![CDATA[Given User Launch facebook web application..................................skipped
+Then User verify facebook login page is displayed...........................skipped
+When User enters valid "valn" and invalid "invalp"..........................skipped
+And User Click Login Button.................................................skipped
+Then User verify Error Message is Displayed.................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
